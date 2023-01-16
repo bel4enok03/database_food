@@ -10,7 +10,7 @@ function App() {
 
 	const [mySerch, setMySerch] = useState('');
 	const [listofFood, setListOfFood] = useState([]);
-  const [wordSubmitted, setWordSubmitted] = useState('pork');
+  const [wordSubmitted, setWordSubmitted] = useState('egg');
 
 	useEffect(() => {
 		const getAdvace = async () => {
